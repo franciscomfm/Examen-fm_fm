@@ -1,6 +1,6 @@
 section {
-    display: block;
-    width: 100%;
+    display: grid;
+    width: 98%;
     height: 95vh;
     padding: 10px;
     background-color: blanchedalmond;
