@@ -1,0 +1,53 @@
+section {
+    display: flex;
+    width: 98%;
+    height: 95vh;
+    padding: 10px;
+    background-color: blanchedalmond;
+  }
+   
+  div {
+    background-color: palevioletred;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    display: flex;
+  }
+
+  #abajo{
+      align-items: flex-end;
+  }
+
+  #derecha{
+      justify-content: flex-end;
+  }
+
+  @media screen and (min-width:800px){
+    section{
+        flex-wrap: wrap;
+    }
+
+    div{
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        min-width: 30%;
+    
+        flex-grow:1 ;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    section{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    div{
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        min-width: 45%;
+        flex: 1 400px;
+    }
+}
